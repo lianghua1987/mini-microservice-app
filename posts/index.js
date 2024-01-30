@@ -32,5 +32,6 @@ app.post('/events', (req, res) => {
 });
 
 app.listen(4000, () => {
+    console.log('Roll out new');
     console.log('Listening on port 4000');
 })
